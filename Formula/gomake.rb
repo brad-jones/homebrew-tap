@@ -1,9 +1,9 @@
 class Gomake < Formula
     desc "A cross platform build tool / task runner that scales."
     homepage "https://github.com/brad-jones/gomake"
-    url "https://github.com/brad-jones/gomake/releases/download/v1.6.2/gomake_darwin_amd64"
-    version "1.6.2"
-    sha256 "f5755938ce7882b6e50b5f0bea27146f615688fca3ee55c42f33738fc17e2f40"
+    url "https://github.com/brad-jones/gomake/releases/download/v1.6.3/gomake_darwin_amd64"
+    version "1.6.3"
+    sha256 "6deee07a5af1f86ba1b08bd7ddece5d621fb45c8c64df9e445ce5a736a6c88b1"
 
     def install
         bin.install "gomake"
