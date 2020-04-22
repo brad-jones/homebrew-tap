@@ -1,9 +1,9 @@
 class Drun < Formula
     desc "A dartlang task runner."
     homepage "https://github.com/brad-jones/drun"
-    url "https://github.com/brad-jones/drun/releases/download/v1.1.5/drun-darwin-x64.tar.gz"
-    version "1.1.5"
-    sha256 "9271f6aa287e158a6d2b7f2755ace520ad58fe7db053a676700d869ca2d719b0"
+    url "https://github.com/brad-jones/drun/releases/download/v2.0.0/drun-darwin-x64.tar.gz"
+    version "2.0.0"
+    sha256 "c8eceed6e1ad2fe4828cb045365042cdbff0c5eeee5bee59d08fa451bbaf88d9"
 
     def install
         bin.install "drun"
