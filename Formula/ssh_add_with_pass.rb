@@ -1,9 +1,9 @@
 class SshAddWithPass < Formula
     desc "Wrapper around ssh-add that uses expect to unlock the provided key."
     homepage "https://github.com/brad-jones/ssh-add-with-pass"
-    url "https://github.com/brad-jones/ssh-add-with-pass/releases/download/v1.0.4/ssh_add_with_pass_darwin_amd64.tar.gz"
-    version "1.0.4"
-    sha256 "357ae0da84c5e71c17638a8dd595ae15b62a3cd5be4f92d0b6ff4500db342c31"
+    url "https://github.com/brad-jones/ssh-add-with-pass/releases/download/v1.0.5/ssh_add_with_pass_darwin_amd64.tar.gz"
+    version "1.0.5"
+    sha256 "d564fda3cf8bf7b36ea60c8c09126b33941e70519c822c2060700894c60410eb"
 
     def install
         bin.install "ssh_add_with_pass"
